@@ -1,1 +1,99 @@
-# amelia.noreplyowed.github.io
+[index.html](https://github.com/user-attachments/files/34812463/index.html)
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Receber uma mensagem não cria uma obrigação de responder. Respeite o tempo e os limites de cada pessoa.">
+  <title>sem obrigação de responder</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#222;background:#fff;font-synthesis:none}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}main{width:min(100% - 40px,760px);margin:0 auto;padding:34px 0 85px}
+    .lang{display:flex;justify-content:flex-end;gap:8px;align-items:center;font-size:.875rem;color:#6a6a6a}
+    .lang button{font:inherit;border:0;background:none;color:#666;padding:5px;cursor:pointer}.lang button[aria-pressed=true]{color:#1a1a1a;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+    .hero{margin:54px 0 52px}.hero h1{font-size:clamp(3.2rem,10vw,5.5rem);line-height:1;letter-spacing:-.075em;font-weight:850;margin:0 0 22px}.hero .strike{text-decoration:line-through;text-decoration-color:#e65a55;text-decoration-thickness:.095em}.subtitle{font-size:clamp(1.17rem,3vw,1.65rem);line-height:1.38;letter-spacing:-.02em;max-width:650px;margin:0;color:#454545}
+    h2{font-size:1.5rem;letter-spacing:-.035em;margin:0 0 20px}p{font-size:1.05rem;line-height:1.7;margin:0 0 19px}section.content{margin:0 0 58px}.chat{background:#f5f5f5;border-radius:12px;padding:22px 23px;margin:17px 0 23px;display:grid;gap:14px}.message{display:flex;gap:13px;align-items:flex-start}.avatar{height:38px;width:38px;flex:none;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:700;background:#8f89b4;font-size:.95rem}.avatar.alt{background:#64878b}.name{font-size:.8rem;color:#777;margin:0 0 2px}.bubble{font-size:1rem;line-height:1.5;margin:0}.neg{color:#c0383b}.pos{color:#168047}.big{font-size:1.32rem;line-height:1.5;font-weight:700}.emph{border-left:4px solid #222;padding:2px 0 2px 18px;margin:24px 0 28px}.muted{color:#707070;font-size:.9rem}.end{font-size:1.27rem;font-weight:750;line-height:1.5;margin-top:31px}footer{border-top:1px solid #dfdfdf;padding-top:23px;margin-top:65px;font-size:.9rem;color:#777}footer p{font-size:inherit}.lang-panel[hidden]{display:none!important}
+    @media(max-width:520px){main{width:min(100% - 36px,760px);padding-top:24px}.hero{margin:52px 0 42px}.hero h1{font-size:clamp(3rem,12.5vw,4rem)}.chat{padding:17px 14px}.content{margin-bottom:42px!important}}
+  </style>
+</head>
+<body>
+<main>
+  <nav class="lang" aria-label="Idioma / Language">
+    <button type="button" data-lang="pt" aria-pressed="true">Português</button><span aria-hidden="true">/</span>
+    <button type="button" data-lang="en" aria-pressed="false">English</button>
+  </nav>
+
+  <div class="lang-panel" id="pt">
+    <header class="hero"><h1>não <span class="strike">exija</span> respostas.</h1><p class="subtitle">Uma mensagem é um convite para conversar, não uma exigência de atenção.</p></header>
+    <section class="content">
+      <h2><span class="neg" aria-hidden="true">✕</span> Não faça isso</h2>
+      <div class="chat" aria-label="Exemplo de cobrança por resposta">
+        <div class="message"><div class="avatar">A</div><div><div class="name">14:05</div><p class="bubble">oi, tá por aí?</p></div></div>
+        <div class="message"><div class="avatar">A</div><div><div class="name">14:12</div><p class="bubble">??</p></div></div>
+        <div class="message"><div class="avatar">A</div><div><div class="name">14:17</div><p class="bubble">vi que ficou online. por que não responde?</p></div></div>
+      </div>
+      <p>Estar online não significa estar disponível. Uma mensagem visualizada não é um compromisso de resposta, e silêncio não é autorização para cobrar.</p>
+    </section>
+    <section class="content">
+      <h2><span class="pos" aria-hidden="true">✓</span> Em vez disso, tente isso</h2>
+      <div class="chat" aria-label="Exemplo de mensagem sem cobrança">
+        <div class="message"><div class="avatar alt">B</div><div><div class="name">14:05</div><p class="bubble">oi! queria conversar sobre uma coisa. sem pressa, responde quando der.</p></div></div>
+      </div>
+      <p>Enviar a mensagem e deixar espaço para a resposta respeita o tempo e a escolha de quem a recebe. Conversar deve ser algo mútuo, não uma tarefa imposta.</p>
+    </section>
+    <section class="content">
+      <h2>Tempo livre não é disponibilidade.</h2>
+      <p class="big emph">Ter o dia inteiro livre não significa estar disponível para conversar. Não existe obrigação de responder só porque há tempo. Se não for urgente, a resposta pode vir quando houver vontade — ou nem vir.</p>
+      <p>Não é necessário justificar cada demora, manter uma conversa sem vontade ou responder apenas para evitar cobranças.</p>
+      <p class="end">Pode mandar uma mensagem. Não pode exigir uma resposta.</p>
+    </section>
+    <footer><p>Respeitar limites também é uma forma de respeito.</p></footer>
+  </div>
+
+  <div class="lang-panel" id="en" hidden>
+    <header class="hero"><h1>don't <span class="strike">demand</span> replies.</h1><p class="subtitle">A message is an invitation to talk, not a demand for attention.</p></header>
+    <section class="content">
+      <h2><span class="neg" aria-hidden="true">✕</span> Don't do this</h2>
+      <div class="chat" aria-label="Example of pressuring someone to reply">
+        <div class="message"><div class="avatar">A</div><div><div class="name">2:05 PM</div><p class="bubble">hey, are you there?</p></div></div>
+        <div class="message"><div class="avatar">A</div><div><div class="name">2:12 PM</div><p class="bubble">??</p></div></div>
+        <div class="message"><div class="avatar">A</div><div><div class="name">2:17 PM</div><p class="bubble">I saw you online. why aren't you replying?</p></div></div>
+      </div>
+      <p>Being online doesn't mean being available. Reading a message doesn't create a promise to reply, and silence isn't an invitation to demand one.</p>
+    </section>
+    <section class="content">
+      <h2><span class="pos" aria-hidden="true">✓</span> Try this instead</h2>
+      <div class="chat" aria-label="Example of a message without pressure">
+        <div class="message"><div class="avatar alt">B</div><div><div class="name">2:05 PM</div><p class="bubble">hey! there's something I'd like to talk about. no rush — reply whenever you feel like it.</p></div></div>
+      </div>
+      <p>Sending a message and leaving space for a response respects the other person's time and choice. Conversation should be mutual, not an assigned task.</p>
+    </section>
+    <section class="content">
+      <h2>Free time isn't availability.</h2>
+      <p class="big emph">Having the whole day free doesn't mean being available to chat. There's no obligation to reply just because there's time. If it isn't urgent, a response can come whenever there's a desire to answer — or not at all.</p>
+      <p>There's no need to justify every delay, keep a conversation going without wanting to, or reply just to avoid being pressured.</p>
+      <p class="end">You can send a message. You can't demand a reply.</p>
+    </section>
+    <footer><p>Respecting boundaries is a form of respect, too.</p></footer>
+  </div>
+</main>
+<script>
+(function(){
+  const panels={pt:document.querySelector('#pt'),en:document.querySelector('#en')};
+  const buttons=[...document.querySelectorAll('[data-lang]')];
+  function setLang(lang){
+    if(!panels[lang])lang='pt';
+    for(const [key,panel] of Object.entries(panels))panel.hidden=key!==lang;
+    buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.lang===lang)));
+    document.documentElement.lang=lang==='pt'?'pt-BR':'en';
+    document.title=lang==='pt'?'sem obrigação de responder':'no reply owed';
+    if(location.hash!=='#'+lang)history.replaceState(null,'','#'+lang);
+  }
+  buttons.forEach(button=>button.addEventListener('click',()=>setLang(button.dataset.lang)));
+  window.addEventListener('hashchange',()=>setLang(location.hash.slice(1)));
+  setLang(location.hash.slice(1));
+})();
+</script>
+</body>
+</html>
